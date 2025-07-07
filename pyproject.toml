@@ -1,0 +1,17 @@
+[project]
+name = "letsmcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]===1.2.1",
+    "mcp-cli>=0.1.0",
+    "langchain>=0.3.26",
+    "langchain-mcp-adapters>=0.0.4",
+    "langgraph>=0.5.1",
+    "langchain-google-genai>=2.0.10",
+    "google-generativeai>=0.8.5",
+    "python-dotenv>=1.1.1",
+    "langchain-openai>=0.3.27",
+]
