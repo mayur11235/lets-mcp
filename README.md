@@ -15,7 +15,7 @@ This scenario verifies the basic functionality of the MCP server.
 
 ## Scenario 2: Test Client-Server Interaction
 
-This scenario tests the interaction between a client and a server that can execute shell commands. The `server2.py` script will run any shell command passed to the client during their interaction.
+This scenario tests the interaction between a client and a server that can execute shell commands. The `server2.py` script will run any shell command passed to the client during interaction.
 
 * **Client Script:** `src/clients/client.py`
 * **Server Script:** `src/servers/server2.py`
